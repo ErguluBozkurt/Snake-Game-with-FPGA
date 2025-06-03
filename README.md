@@ -44,7 +44,7 @@ fpga-snake-game/
 ### Programlama Adımları
 1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/kullaniciadiniz/fpga-snake-game.git
+   git clone https://github.com/ErguluBozkurt/Snake-Game-with-FPGA.git
 2. Kaynak dosyaları ve kısıtlamaları ekleyin
 3. Bitstream oluşturup FPGA'ye yükleyin
 
