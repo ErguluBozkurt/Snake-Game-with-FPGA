@@ -20,6 +20,7 @@ Digilent Basys 3 (Artix-7) FPGA kartı için geliştirilmiş klasik Snake oyunun
 | Saat | 100MHz dahili osilatör |
 
 ## 📂 Proje Dizini
+```markdown
 fpga-snake-game/
 ├── src/
 │ ├── snake_game.v (Ana oyun mantığı)
@@ -33,7 +34,7 @@ fpga-snake-game/
 ├── sim/
 │ └── tb_snake_game.v (Doğrulama testbench'i)
 └── README.md
-
+```
 
 ## 🔧 Kurulum
 ### Önkoşullar
@@ -48,10 +49,16 @@ fpga-snake-game/
 3. Bitstream oluşturup FPGA'ye yükleyin
 
    
-##🎮 Oyun Kontrolleri
-Tuş	Aksiyon
-W	Yukarı Hareket
-A	Sola Hareket
-S	Aşağı Hareket
-D	Sağa Hareket
-Orta Buton	Oyunu Sıfırla
+
+### 2. **Oyun Kontrolleri**:  
+```markdown
+## 🎮 Oyun Kontrolleri
+
+| Tuş        | Aksiyon           |
+|------------|-------------------|
+| W          | Yukarı Hareket    |
+| A          | Sola Hareket      |
+| S          | Aşağı Hareket     |
+| D          | Sağa Hareket      |
+| Orta Buton | Oyunu Sıfırla     |
+
